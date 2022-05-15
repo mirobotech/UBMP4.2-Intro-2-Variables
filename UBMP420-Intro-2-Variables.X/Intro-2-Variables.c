@@ -53,7 +53,7 @@ int main(void)
             LED3 = 1;
         }
         
-        // Reset count and turn off LED D4
+        // Reset count and turn off LED D3
         if(SW3 == 0)
         {
             LED3 = 0;
@@ -196,11 +196,11 @@ int main(void)
         if(SW2 == pressed && SW2Pressed == false)
         {
             LED2 = 1;
+            SW2Pressed = true;
             if(SW2Count < 255)
             {
                 SW2Count = SW2Count + 1;
             }
-            SW2Pressed = true;
         }
 
         // Clear pressed state if released

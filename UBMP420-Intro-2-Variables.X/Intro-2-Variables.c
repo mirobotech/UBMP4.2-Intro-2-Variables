@@ -1,6 +1,6 @@
 /*==============================================================================
- Project: Intro-2-Variables
- Date:    April 2, 2022
+ Project: Intro-2-Variables             Activity: mirobo.tech/ubmp4-intro-2
+ Date:    January 20, 2023
  
  This example program demonstrates the use of byte (char) constants and
  variables to count button presses and trigger actions when a limit is reached.

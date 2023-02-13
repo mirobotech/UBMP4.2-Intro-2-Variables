@@ -1,15 +1,16 @@
 /*==============================================================================
  Project: Intro-2-Variables             Activity: mirobo.tech/ubmp4-intro-2
- Date:    January 20, 2023
+ Date:    February 13, 2023
  
- This example program demonstrates the use of byte (char) constants and
- variables to count button presses and trigger actions when a limit is reached.
+ This introductory programming activity for the mirobo.tech UBMP4 demonstrates
+ the use of byte (char) constants and variables to count button presses and then
+ to trigger actions when a limit is reached.
   
- Additional program analysis and programming activities demonstrate using bit
- (Boolean, or bool) variables to store state for operations such as preventing 
- multiple counting of a singe button press during successive program loops.
- Additional activities include the creation of a two-player rapid-clicker game,
- simulating a real-world toggle button, and counting switch contact bounce.
+ Additional program analysis and programming activities demonstrate the use of
+ bit (Boolean, or bool) variables to store state for preventing multiple counts
+ of a singe button being pressed during successive program loops. Additional
+ activities include the creation of a two-player rapid-clicker game, simulation
+ of a real-world toggle button, and counting switch contact bounce.
 ==============================================================================*/
 
 #include    "xc.h"              // Microchip XC8 compiler include file
